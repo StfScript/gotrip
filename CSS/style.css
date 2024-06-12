@@ -5,10 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-body{ margin: 5%;
+body{ margin: 15%;
     margin-top: auto;
     font-family: 'Montserrat', 'sans-serif';
     overflow-x: hidden;
+background-color: rgb(255, 249, 242);
 }
 
 .carousel-item img{
@@ -25,25 +26,26 @@ body{ margin: 5%;
 }
 
 .carousel-caption h5{ 
-    font-family: 'Montserrat', 'sans-serif';
+    font-family: 'system-ui', 'sans-serif';
+    font-weight: 700;
     font-size: 2.25rem;
     color: rgb(250, 252, 255);
-    text-shadow: 3px 5px 5px black;
+    text-shadow: 2px 2px 2px black;
 } 
 
       
 
 
 
-small{color: white;}
+small{color: rgb(255, 255, 255);}
 .card h3, p {text-align: center;}
 
 .card{ 
-    padding: 20px;
+    padding: 1.25em;
 }
 .card-img-top{ 
-
-    height: 400px;
+width: auto;
+   height: 20em;
 }
 
 
@@ -74,6 +76,9 @@ font-family: 'Roboto', 'Courier','sans-serif';
 header {background-color: rgb(49, 190, 255);}
 h2{font-family: 'Roboto';}
 
+.texts{
+    margin-top: 100em;
+}
 
 main, section, form{margin: 10px auto;
 max-width: 100%;
