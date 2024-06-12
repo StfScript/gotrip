@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{ margin: 5%;
+    margin-top: auto;
+    font-family: 'Montserrat', 'sans-serif';
+    overflow-x: hidden;
+}
+
+.carousel-item img{
+   display: flex;
+    height: 25em; /* Ajuste este valor conforme necessário */
+     /* Ajuste este valor conforme necessário */  
+
+    }
+
+
+.card {
+
+    box-shadow: #00000015 0px 1px 0px 2px;
+}
+
+.carousel-caption h5{ 
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 2.25rem;
+    color: rgb(250, 252, 255);
+    text-shadow: 3px 5px 5px black;
+} 
+
+      
+
+
+
+small{color: white;}
+.card h3, p {text-align: center;}
+
+.card{ 
+    padding: 20px;
+}
+.card-img-top{ 
+
+    height: 400px;
+}
+
+
+
+.navbar-brand{
+font-family: "Lobster", sans-serif;
+font-size: 35px;
+color: cornflowerblue;
+}
+
+.carousel-item{
+padding:0px ;
+
+}
+
+
+
+header h1{
+    font-weight: bolder;
+    color: white;
+    font-size: 60px;
+    margin: 0px;
+    padding: 100px;    
+font-family: 'Roboto', 'Courier','sans-serif';
+
+
+}
+header {background-color: rgb(49, 190, 255);}
+h2{font-family: 'Roboto';}
+
+
+main, section, form{margin: 10px auto;
+max-width: 100%;
+padding: 5px;
+}
+footer{
+font-family: 'Roboto', sans-serif; ;
+}
+.negrito{ 
+font-weight: bold;
+font-size: 20px
+}
+
+
+/* Tr é a linha da tabela. Tr:nth-child(even) aqui dizemos que queremos das linhas o filho par. Então todas as vezes que a linha for par, algo ocorre. */
+
+
+
+legend{margin: 0px}
+
+.navbar-nav {
+
+margin-top: 20px;
+font-family: 'Montserrat', 'sans-serif';
+font-weight: 650; }
