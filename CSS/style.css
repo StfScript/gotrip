@@ -5,23 +5,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-body{ margin: 15%;
+@media screen {
+
+    body {margin: 15%;
     margin-top: auto;
     font-family: 'Montserrat', 'sans-serif';
     overflow-x: hidden;
-background-color: rgb(255, 249, 242);
+    background-color: rgb(255, 249, 242);
 }
 
-.carousel-item img{
-   display: flex;
+    .carousel-item img{
+    display: flex;
     height: 25em; /* Ajuste este valor conforme necessário */
      /* Ajuste este valor conforme necessário */  
 
     }
 
+#foto{
+    margin-top: 1.5em;
+}
 
 .card {
-
+    font-family: 'system-ui', 'sans-serif';
+    padding: 1.25em;
     box-shadow: #00000015 0px 1px 0px 2px;
 }
 
@@ -37,27 +43,32 @@ background-color: rgb(255, 249, 242);
 
 
 
-small{color: rgb(255, 255, 255);}
-.card h3, p {text-align: center;}
+small{
+    color: rgb(255, 255, 255);}
 
-.card{ 
-    padding: 1.25em;
-}
+.card h3, p {
+    
+    text-align: center;}
+
+
 .card-img-top{ 
-width: auto;
-   height: 20em;
+    
+    width: auto;
+    height: 20em;
 }
 
 
 
-.navbar-brand{
-font-family: "Lobster", sans-serif;
-font-size: 35px;
-color: cornflowerblue;
+.navbar-brand   
+{
+    font-family: "Lobster", sans-serif;
+    font-size: 35px;
+    color: cornflowerblue;
 }
 
 .carousel-item{
-padding:0px ;
+    
+    padding:0px ;
 
 }
 
@@ -69,38 +80,40 @@ header h1{
     font-size: 60px;
     margin: 0px;
     padding: 100px;    
-font-family: 'Roboto', 'Courier','sans-serif';
-
-
+    font-family: 'Roboto', 'Courier','sans-serif';
 }
-header {background-color: rgb(49, 190, 255);}
-h2{font-family: 'Roboto';}
+
+header {
+    background-color: rgb(49, 190, 255);}
+
+h2{
+    font-family: 'Roboto';}
 
 .texts{
     margin-top: 100em;
 }
 
-main, section, form{margin: 10px auto;
-max-width: 100%;
-padding: 5px;
+main, section, form{
+    margin: 10px auto;
+    max-width: 100%;
+    padding: 5px;
 }
+
 footer{
-font-family: 'Roboto', sans-serif; ;
+    font-family: 'Roboto', sans-serif; ;
 }
+
 .negrito{ 
-font-weight: bold;
-font-size: 20px
+    font-weight: bold;
+    font-size: 20px
 }
 
-
-/* Tr é a linha da tabela. Tr:nth-child(even) aqui dizemos que queremos das linhas o filho par. Então todas as vezes que a linha for par, algo ocorre. */
-
-
-
-legend{margin: 0px}
+legend{
+    margin: 0px}
 
 .navbar-nav {
 
-margin-top: 20px;
-font-family: 'Montserrat', 'sans-serif';
-font-weight: 650; }
+    margin-top: 20px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 650; }
+}
