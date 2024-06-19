@@ -1,8 +1,16 @@
-@media (orientation: portrait) {
+@media (max-width: 768px) {
     
+
     body {
         margin: 0%;
 
     }
-
+    .carousel-item img  {
+        height: 15em;
+        
+   
 }
+}
+
+
+

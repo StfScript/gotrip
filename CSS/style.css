@@ -22,8 +22,56 @@
     }
 
 #foto{
+    
     margin-top: 1.5em;
+    width: 48em;
+    height: 20em;
+    margin-right: auto;
 }
+
+#foto img{ 
+    height: 100%;
+}
+
+#foto2 { 
+    margin-top: 8em;
+    margin-left: auto;
+    width: 48em;
+    height: 20em;
+    padding: 0%;
+
+}
+#foto2 img{ 
+    height: 100%;
+}
+
+.card-texto2{ 
+    display: flex;
+    margin-top: -15em;
+    margin-left: 2.5em;  
+    
+}
+.card-texto2 h1{
+
+width: 10em;
+font-family: 'Montserrat', 'sans-serif';
+font-weight: 600;
+
+}
+
+.card-texto3{ 
+   margin-left: 54em;
+   margin-top: -15em;  
+    
+}
+.card-texto3 h1{
+
+width: 10em;
+font-family: 'Montserrat', 'sans-serif';
+font-weight: 600;
+
+}
+
 
 .card {
     font-family: 'system-ui', 'sans-serif';
@@ -57,6 +105,9 @@ small{
     height: 20em;
 }
 
+#foto { 
+    padding: 0%;
+}
 
 
 .navbar-brand   
@@ -87,8 +138,10 @@ header {
     background-color: rgb(49, 190, 255);}
 
 h2{
-    font-family: 'Roboto';}
-
+    font-family: 'Roboto';
+    font-weight: 600
+}
+    
 .texts{
     margin-top: 100em;
 }
@@ -100,7 +153,10 @@ main, section, form{
 }
 
 footer{
+    margin-top: 8.5em;
     font-family: 'Roboto', sans-serif; ;
+    height: 14.5em;
+    box-shadow: #0000001c 0px 0px 11px 3px;
 }
 
 .negrito{ 
