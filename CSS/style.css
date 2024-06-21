@@ -14,6 +14,18 @@
     background-color: rgb(255, 249, 242);
 }
 
+.navbar-nav {
+
+    margin-top: 20px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 650; }
+
+    .navbar-brand   
+{
+    font-family: "Lobster", sans-serif;
+    font-size: 35px;
+    color: cornflowerblue;}
+
     .carousel-item img{
     display: flex;
     height: 25em; /* Ajuste este valor conforme necessário */
@@ -21,8 +33,29 @@
 
     }
 
-#foto{
+    .carousel-caption h5{ 
+    font-family: 'system-ui', 'sans-serif';
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: rgb(250, 252, 255);
+    text-shadow: 2px 2px 2px black;
+    } 
+    .carousel-item{
     
+    padding:0px ;
+        
+        }
+   
+    } 
+
+    main, section, form{
+    margin: 10px auto;
+    max-width: 100%;
+    padding: 5px;
+    }
+    
+#foto{
+    display: block;
     margin-top: 1.5em;
     width: 48em;
     height: 20em;
@@ -35,6 +68,7 @@
 }
 
 #foto2 { 
+    display: block;
     margin-top: 8em;
     margin-left: auto;
     width: 48em;
@@ -50,58 +84,56 @@
 
 .card-title2{ 
     margin-left: 24.5em;
-    
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
 
 .card-texto2{ 
-    display: flex;
+    display: block;
     margin-top: -15em;
     margin-left: 2.5em;  
     
 }
 .card-texto2 h1{
-
-width: 10em;
-font-family: 'Montserrat', 'sans-serif';
-font-weight: 600;
+    opacity: 100; 
+    transform: translateX(0.5em); 
+    transition: opacity 1s ease-in, transform 1.5s ease-out;
+    width: 10em;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 600;
 
 }
 
 .card-texto3{ 
-   margin-left: 54em;
-   margin-top: -15em;  
+    display: block;
+    margin-left: 54em;
+    margin-top: -15em;  
     
 }
 .card-texto3 h1{
+    opacity: 100; 
+    transform: translateX(-0.5em); 
+    transition: opacity 1s ease-in, transform 1.5s ease-out;
+    
 
-width: 10em;
-font-family: 'Montserrat', 'sans-serif';
-font-weight: 600;
+    width: 10em;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 600;
+
 
 }
-
-
-.card {
-    font-family: 'system-ui', 'sans-serif';
-    padding: 1.25em;
-    box-shadow: #00000015 0px 1px 0px 2px;
-}
-
-.carousel-caption h5{ 
-    font-family: 'system-ui', 'sans-serif';
-    font-weight: 700;
-    font-size: 2.25rem;
-    color: rgb(250, 252, 255);
-    text-shadow: 2px 2px 2px black;
-} 
-
-      
-
-
-
-small{
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Contém o texto */
+  }
+  
+  
+ 
+  
+  
+  small{
     color: rgb(255, 255, 255);}
 
 .card h3, p {
@@ -115,25 +147,15 @@ small{
     height: 20em;
 }
 
+.card {
+    font-family: 'system-ui', 'sans-serif';
+    padding: 1.25em;
+    box-shadow: #00000015 0px 1px 0px 2px;
+}
+
 #foto { 
     padding: 0%;
 }
-
-
-.navbar-brand   
-{
-    font-family: "Lobster", sans-serif;
-    font-size: 35px;
-    color: cornflowerblue;
-}
-
-.carousel-item{
-    
-    padding:0px ;
-
-}
-
-
 
 header h1{
     font-weight: bolder;
@@ -156,11 +178,6 @@ h2{
     margin-top: 100em;
 }
 
-main, section, form{
-    margin: 10px auto;
-    max-width: 100%;
-    padding: 5px;
-}
 
 footer{
     padding: 1.5em;
@@ -172,17 +189,16 @@ footer{
     box-shadow: #0000001c 0px 0px 11px 3px;
 }
 
+footer p, a{ 
+    text-align: center;
+    text-decoration: none;
+}
+
+footer h5{
+    margin-left: 0.6em;
+}
+
 .negrito{ 
     font-weight: bold;
     font-size: 20px
-}
-
-legend{
-    margin: 0px}
-
-.navbar-nav {
-
-    margin-top: 20px;
-    font-family: 'Montserrat', 'sans-serif';
-    font-weight: 650; }
 }

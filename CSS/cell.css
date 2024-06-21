@@ -1,26 +1,35 @@
+/* Layout para dispositivos móveis */
+     
+
 @media (max-width: 768px) {
     
-
-    body {
-        margin: 0%;
-
-    }
-    .carousel-item img  {
-        height: 15em;
+body {
+    margin: 0%;
+    padding: 0.3em;
+    overflow-x: hidden;    
+}
+.carousel-item img  {
+    height: 15em;
         
    
 }
 
 .card-texto3{ 
-display: none;
+    display: none;
 }
 
 #foto  { 
 
-   display: none;
+    display: none;
    }
 
-   #foto2{ display: none;}
+#foto2{ 
+    display: none;}
+
+.card-texto2{ 
+    
+    display: none;}
+
 }
 
 
