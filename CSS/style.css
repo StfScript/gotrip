@@ -31,6 +31,7 @@
 
 #foto img{ 
     height: 100%;
+    object-fit: cover;
 }
 
 #foto2 { 
@@ -43,6 +44,15 @@
 }
 #foto2 img{ 
     height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.card-title2{ 
+    margin-left: 24.5em;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 .card-texto2{ 
@@ -153,8 +163,11 @@ main, section, form{
 }
 
 footer{
+    padding: 1.5em;
+    border-radius: 8px;
     margin-top: 8.5em;
-    font-family: 'Roboto', sans-serif; ;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500;
     height: 14.5em;
     box-shadow: #0000001c 0px 0px 11px 3px;
 }
